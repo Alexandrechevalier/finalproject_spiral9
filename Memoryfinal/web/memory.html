@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>memory game</title>
+    <link rel="stylesheet" href="memory.css">
+  </head>
+  <body>
+    <h1>Memory Game!</h1>
+
+    <section>
+      <canvas id="canvas" width="320" height="320">
+        Canvas is not supported in your browser.
+      </canvas>
+      <button id="play">Play again</button>
+    </section>
+    
+    <audio id="thip">
+      <source src="sounds/thip.ogg" type="audio/ogg"/>
+    </audio>
+    <audio id="fireballs">
+      <source src="sounds/fireballs.ogg" type="audio/ogg"/>
+    </audio>
+
+    <section id="text">
+      <p>
+        Memory game with the theme cars! How good is your memory? Or your car skills?
+        Try this and find out! 
+        
+      </p>
+      <ul>
+        <li>
+          <a href="https://github.com/dzenanr/memory">
+        
+          </a>
+        </li>
+      </ul>
+      <p>
+       This is the second part of the final project for the course 
+       Introduction à la programmation SIO-2109 created by Denice B Johansson 
+      </p>
+    </section>
+
+    <script type="application/dart" src="memory.dart"></script>
+    <script src="packages/browser/dart.js"></script>
+  </body>
+</html>
